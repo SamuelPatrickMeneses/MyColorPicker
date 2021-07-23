@@ -27,14 +27,23 @@ div#paleta.container.row{
 }
 div#card.row.col.s12.l5{
     padding: 0 0;
-    width: 250px;
+    min-height: 270;
+    max-height: 290;
 }
 #colorLabel{
-    height: 120px;
+    min-height: 270px;
+    max-height: 270px;
     background-color: blue;
+    margin-bottom: 0;
 }
-div.card-image.col.l12{
+div.card-image.col.s4.l12{
     padding: 0;
+    min-height: 270px;
+    max-height: 270px;
+    margin-bottom: 0;
+}
+div.row.inputC.s12.l4{
+    margin-bottom: 0;
 }
 
 div.rotatable{
@@ -49,9 +58,10 @@ div.rotatable input{
   margin: 0;
   transform-origin: 75px 75px;
   transform: rotate(-90deg);
+  padding-top: 1.7em;
 }
 div.rotatable.nocenter input{
- padding-top: 1.7em;
+ 
 }
 p.leter{
     font-family: Mitr;
@@ -61,13 +71,32 @@ p.leter{
 div.col.m3.leter-content{
     padding: 0;
 }
-div.col.m4.row{
-    padding: ;
+div.col.row.CI{
+
+    margin: 0 1px;
+}
+div#left.col.row.CI{
+    margin-left: 8px;
 }
 div.col.m3.row.push-l1.center{
- margin: 0 0 0 24px;
+ margin: 0 0 0 26px;
 }
 
-div.card div#cc.card-content{
-    padding: 0;
+div.card div#cc.card-content.s6.l12 {
+    padding: 0 24 0 24px;
+    margin-right: 1em;
+}
+div.col.s6.l12{
+    margin-bottom: .5em;
+
+}
+div.col.s6.l12.copy{
+    margin-bottom: .5em;
+    border-radius: 10px 0 0 10px;
+
+} 
+NC{
+    min-width: 200px;
+    min-height: 1em;
+    background-color: gray;
 }
