@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/css/materialize.css" media="screen,projection">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="cabeçalho">
+        <header>
+            <div id="cabeçalhoI" class="row">
+                <nav class="black">
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <a id="logo" href="" class="brand-logo">
+                                <samp>My</samp>color picker
+                            </a>
+                            <a href="" data-target="slide-out" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="#" class="active">Caregar imagem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Apoie-nos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div id="main" class="container row white">
+        <main>
+            <div name="anuncio"></div>
+            <div name="menu">
+                <div class="input-field col s12 m6 l4 push-l2">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <label for=""> Tipo de combinação</label>
+                </div>
+                <div class="input-field col s12 m6 l4 push-l2">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <label for="">tipo de entrada</label>
+                </div>
+                </select>
+            </div>
+            <div  id="paleta" name="paleta" class="container row">
+                <div id="card" class="row col s12 l5">                    
+                        <div class="card s12 l5">
+                            <div class="card-image col s2 l12">
+                                <div id="colorLabel"></div>
+                            </div>
+                            <div id="cc"class="card-content s6 l12 row">
+                                <div class="row inputC s12 l4">
+                                    <div div class="col m3 row push-l1">
+                                        <div class="">
+                                            <input type="text">
+                                        </div>
+                                            <div class="col m3 leter-content">
+                                                <p class="leter nocenter">R</p>
+                                            </div>
+                                        <div class="rotatable nocenter">
+                                            <input type="range">
+                                        </div>
+                                    </div>
+                                    <div div class="col m3 center row push-l1">
+                                        <div class="">
+                                            <input type="text">
+                                        </div>
+                                            <div class="col m3 leter-content">
+                                                <p class="leter nocenter">G</p>
+                                            </div>
+                                        <div class="rotatable">
+                                            <input type="range">
+                                        </div>
+                                    </div>
+                                    <div div class="col m3 row push-l1">
+                                        <div class="">
+                                            <input type="text">
+                                        </div>
+                                            <div class="col m3 leter-content">
+                                                <p class="leter nocenter">B</p>
+                                            </div>
+                                        <div class="rotatable nocenter">
+                                            <input type="range">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+
+        </main>
+    </div>
+    <div id="rodapé">
+        <footer></footer>
+    </div>
+    <script src="js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/js/materialize.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

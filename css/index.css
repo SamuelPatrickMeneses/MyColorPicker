@@ -1,0 +1,73 @@
+body {
+    background-image: url(../img/background.jpg);
+}
+
+#logo {
+    color: white;
+    font-size: 2em;
+    margin-left: 1em;
+    font-family: cairo, sans-serif;
+}
+
+#logo samp {
+    color: black;
+    font-size: 1.2em;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+nav{
+    background-color: black;
+}
+#cabeçalhoI.row{
+    margin-bottom: 0;
+}
+div#paleta.container.row{
+    margin: auto 0 auto 0;
+}
+div#card.row.col.s12.l5{
+    padding: 0 0;
+    width: 250px;
+}
+#colorLabel{
+    height: 120px;
+    background-color: blue;
+}
+div.card-image.col.l12{
+    padding: 0;
+}
+
+div.rotatable{
+    display: inline-block;
+  width: 20px;
+  height: 150px;
+  padding: 0;
+}
+div.rotatable input{
+  width: 150px;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg);
+}
+div.rotatable.nocenter input{
+ padding-top: 1.7em;
+}
+p.leter{
+    font-family: Mitr;
+    font-size: 2rem;
+    line-height: 5em;
+}
+div.col.m3.leter-content{
+    padding: 0;
+}
+div.col.m4.row{
+    padding: ;
+}
+div.col.m3.row.push-l1.center{
+ margin: 0 0 0 24px;
+}
+
+div.card div#cc.card-content{
+    padding: 0;
+}
