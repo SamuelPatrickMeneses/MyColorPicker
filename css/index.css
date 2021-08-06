@@ -22,23 +22,33 @@ nav{
 #cabeçalhoI.row{
     margin-bottom: 0;
 }
-div#paleta.container.row{
-    margin: auto 0 auto 0;
+main{
+    padding: 2em 0;
 }
-div#card.row.col.s12.l5{
+div#paleta.container.row.col.s12.m12.l12{
+    margin:  0;
+    padding: 0;
+}
+div.row.s12.l5{
+    padding: 0;
+    margin-bottom: 0;
+}
+div.card{
     padding: 0 0;
-    min-height: 270;
+    margin: 0;
+    min-height: 250;
     max-height: 290;
 }
-#colorLabel{
-    min-height: 270px;
+.card-image div.colorLabel{
+    min-height: 250px;
     max-height: 270px;
-    background-color: blue;
-    margin-bottom: 0;
+    background-color: #323232;
+    margin: 0;
+    padding: .5em 0 0 .5em;
 }
 div.card-image.col.s4.l12{
     padding: 0;
-    min-height: 270px;
+    min-height: 250px;
     max-height: 270px;
     margin-bottom: 0;
 }
@@ -58,11 +68,9 @@ div.rotatable input{
   margin: 0;
   transform-origin: 75px 75px;
   transform: rotate(-90deg);
-  padding-top: 1.7em;
+
 }
-div.rotatable.nocenter input{
- 
-}
+
 p.leter{
     font-family: Mitr;
     font-size: 2rem;
@@ -70,21 +78,28 @@ p.leter{
 }
 div.col.m3.leter-content{
     padding: 0;
+    
 }
-div.col.row.CI{
+div.col.m3.leter-content.nocenter{
+    padding: 0;
 
-    margin: 0 1px;
+    
 }
-div#left.col.row.CI{
-    margin-left: 8px;
+div.col.s2.l3.row.CI{
+    padding: 0;
+    margin: 0;
 }
+
 div.col.m3.row.push-l1.center{
  margin: 0 0 0 26px;
 }
 
-div.card div#cc.card-content.s6.l12 {
-    padding: 0 24 0 24px;
-    margin-right: 1em;
+div.card div.card-content {
+    padding: 0 24px 0 24px;
+    margin:  0 0 0 0 ;
+}
+.row.nbb{
+    margin-bottom: 0;
 }
 div.col.s6.l12{
     margin-bottom: .5em;
