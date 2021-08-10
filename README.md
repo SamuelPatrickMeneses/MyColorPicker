@@ -20,27 +20,27 @@ Aluno: Samuel Patrick Meneses
 
 ### Funções
 
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [x] Função anônima com argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função auto-executável
+- [x] Função auto-executável
 - [ ] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+- [x] Função aninhada/local - declarar uma função dentro de outra
+- [x] Passagem de uma função como parâmetro
+- [x] Função Flecha - Arrow Function
 
 ### Eventos
 
-- [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
+- [x] Evento de carregamento do documento - onload
+- [x] Evento de movimento do mouse
+- [x] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
 - [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)
 
 ### Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
+- [x] Via referência DOM pelo id do elemento HTML
 - [ ] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
@@ -62,19 +62,19 @@ Aluno: Samuel Patrick Meneses
 
 ### Objetos
 
-- [ ] Criar objeto usando função construtora ou notação literal
-- [ ] Criar objetos a partir da definição de classes do ES6
+- [x] Criar objeto usando função construtora ou notação literal
+- [x] Criar objetos a partir da definição de classes do ES6
 - [ ] Usar herança prototipal nativa ou herança de classes do ES6
 
 ### Qualidade do código
 
-- [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
-- [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
+- [x] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
+- [x] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
 - [ ] Usar strict mode
-- [ ] Usar Module Pattern
+- [x] Usar Module Pattern
 - [ ] Usar strict mode
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ou const ao invés de var
+- [x] Usar let ou const ao invés de var
 - [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
 
 ### Formulário
@@ -91,13 +91,13 @@ Aluno: Samuel Patrick Meneses
 
 ### jQuery
 
- - [ ] Uso de seletores CSS - id, classe e tag
- - [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
+ - [x] Uso de seletores CSS - id, classe e tag
+ - [x] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
  - [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
  - [ ] Efeitos fade ou slide
  - [ ] Especificar o tratador de algum evento via jQuery
- - [ ] Manipulação do CSS via função css() e addClass()/removeClass()
- - [ ] Manipulação do conteúdo de um input e div usando jQuery
+ - [x] Manipulação do CSS via função css() e addClass()/removeClass()
+ - [x] Manipulação do conteúdo de um input e div usando jQuery
  - [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
  ### Web Storage

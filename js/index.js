@@ -37,7 +37,7 @@
         }
         update() {
             $(this.comp).css({
-                "background-color": this.toString()
+                'background-color': this.toString()
             });
             this.copyButton.innerText = this.toString();
             console.log(this.toString());
@@ -56,6 +56,15 @@
         }
     }
 
+    function rgbConfig(temp, campo){
+        temp.attr('min', 0);
+        temp.attr('max', 255);
+        campo.attr('min',0);
+        campo.attr('max',255);
+        campo.attr('pattern','^(((\\d)|(\\d\\d))|(([0-2][0-4][0-9])|([2][5][0-5])))$');
+        campo.rgb = '^(((\\d)|(\\d\\d))|(([0-2][0-4][0-9])|([2][5][0-5])))$';
+    }
+
     function initCard(card) {
         let content = $(card).find('div.CI div.row.nbb');
         console.log(content);
@@ -64,10 +73,9 @@
         console.log(copyButton);
         color.colirListener = new Color(color, copyButton);
         content.each(function (i, e) {
-            let temp = $(content[i]).find('div.rotatable input');
-            let campo = $(content[i]).find('div.col.s12.m12.l12 input');
-            temp.attr('min', 0);
-            temp.attr('max', 255);
+            let temp = $(e).find('div.rotatable input');
+            let campo = $(e).find('div.col.s12.m12.l12 input');
+            rgbConfig(temp,campo);
             temp.rangeListener = new RangeListener(temp);
             temp.range = function () {
                 campo.val(temp.val());
@@ -76,9 +84,16 @@
             };
             campo.val(temp.val());
             campo.on('blur', function () {
+                let rg = new RegExp(campo.rgb);
+                if(!rg.test(campo.val()))
+                    campo.val(0);
                 temp.val(campo.val());
                 color.colirListener.setColor(i, campo.val());
                 color.colirListener.update();
+            });
+            campo.on('keydown',(e) =>{
+                if(e.which === 13)
+                    $(campo).blur();
             });
         });
     }
@@ -86,7 +101,6 @@
     function initInputs() {
 
         let paleta = $('#paleta');
-        let children = paleta.find('div.col.s12.m3.l3.celula');
         paleta.append(paleta.html());
         paleta.append(paleta.html());
         let cards = document.querySelectorAll('div.card.row');
