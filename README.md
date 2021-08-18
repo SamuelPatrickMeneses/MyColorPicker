@@ -5,7 +5,8 @@ curso: Tecnologias em sistemas para internet(TSI)
 insttituição: Universidade tecnologica federal do parana (UTFPR)
 Aluno: Samuel Patrick Meneses
 
-<h1 align="center">MyColorPicker https://github.com/SamuelPatrickMeneses/MyColorPicker.git</h1>
+<h1 style="text-align: center;">MyColorPicker https://github.com/SamuelPatrickMeneses/MyColorPicker.git</h1>
+<p style="text-align: center;"><a href="https://samuelpatrickmeneses.github.io/MyColorPicker/" rel="external" target="_blank">acesse pelo github pages.</a></p>
 
 ### Caixas de Diálogo
 
